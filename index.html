@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/nav.css" />
+    <link rel="stylesheet" href="/sidenav.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    />
+    <title>Youtube Clone</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo-sec">
+        <i class="ri-menu-line"></i>
+        <div class="logo">
+          <i class="ri-2x ri-youtube-fill"></i>
+          <div id="logo-text"><h1>YOUTUBE</h1></div>
+        </div>
+      </div>
+      <div class="search-sec">
+        <form action="">
+          <input type="text" placeholder="Search" />
+        </form>
+        <button class="search"><i class="ri-search-line"></i></button>
+        <button class="microphone"><i class="ri-mic-fill"></i></button>
+      </div>
+      <div class="profile-sec">
+        <i class="ri-video-add-line"></i>
+        <i class="fa-regular fa-bell"></i>
+        <div class="profile"><img src="/images/p.jpg" alt="profile" /></div>
+      </div>
+    </div>
+    <div class="main-container">
+      <div class="sidenav">
+        <div class="sidenav-items">
+          <a href="#" class="sidenav-item"
+            ><i class="ri-home-5-line"></i>Home</a
+          >
+          <a href="#" class="sidenav-item"
+            ><i class="ri-wireless-charging-line"></i>Shorts</a
+          >
+          <a href="#" class="sidenav-item"
+            ><i class="ri-rss-line"></i>Subscriptions</a
+          >
+          <hr />
+
+          <a href="#" class="sidenav-item"
+            ><i class="ri-links-line"></i>Library</a
+          >
+          <a href="#" class="sidenav-item"
+            ><i class="ri-history-line"></i>History</a
+          >
+          <a href="#" class="sidenav-item"
+            ><i class="ri-video-line"></i>Your vidoes</a
+          >
+          <a href="#" class="sidenav-item"
+            ><i class="ri-time-line"></i>Watch later</a
+          >
+          <a href="#" class="sidenav-item"
+            ><i class="ri-thumb-up-line"></i>Liked videos</a
+          >
+          <hr />
+
+          <h3 class="subs">Subscriptions</h3>
+          <a href="#" class="sidenav-item"
+            ><img src="/images/software eng..jpg" alt="profile" />Software
+            Engineering</a
+          >
+          <a href="#" class="sidenav-item"
+            ><img src="/images/KP.jpg" alt="profile" />Kevin Powell</a
+          >
+          <a href="#" class="sidenav-item"
+            ><img src="/images/PWM.jpg" alt="profile" />Programming with Mosh</a
+          >
+          <a href="#" class="sidenav-item"
+            ><img src="/images/TM.jpg" alt="profile" /> Traversy Media</a
+          >
+          <a href="#" class="sidenav-item"
+            ><img src="/images/DM.jpg" alt="profile" /> Desperanza Media</a
+          >
+          <a href="#" class="sidenav-item"
+            ><img src="/images/STD.jpg" alt="profile" />Slaying The dragon</a
+          >
+          <a href="#" class="sidenav-item"
+            ><img src="/images/UI.jpg" alt="profile" />Uduak Isong Media</a
+          >
+          <hr />
+          <h3 class="explore">Explore</h3>
+          <a href="#" class="sidenav-item"
+            ><i class="ri-fire-line"></i>Trending</a
+          >
+          <a href="#" class="sidenav-item"
+            ><i class="ri-music-line"></i>Music</a
+          >
+          <a href="#" class="sidenav-item"
+            ><i class="ri-gamepad-line"></i>Gaming</a
+          >
+          <a href="#" class="sidenav-item"
+            ><i class="fa-solid fa-trophy"></i>Sports</a
+          >
+          <hr />
+
+          <h3 class="more">More from YouTube</h3>
+          <a href="#" class="sidenav-item"
+            ><i class="red fa-solid fa-microphone-lines"></i>Creator Studio</a
+          >
+          <a href="#" class="sidenav-item"
+            ><i class="red fa-solid fa-circle-play"></i>YouTube Music</a
+          >
+          <a href="#" class="sidenav-item"
+            ><i class="red fa-brands fa-square-youtube"></i>YouTube Kids</a
+          >
+          <a href="#" class="sidenav-item"
+            ><i class="red ri-tv-2-line"></i>YouTube TV</a
+          >
+          <hr />
+
+          <a href="#" class="sidenav-item"
+            ><i class="ri-settings-5-line"></i>Settings</a
+          >
+          <a href="#" class="sidenav-item"
+            ><i class="ri-flag-line"></i>Report History</a
+          >
+          <a href="#" class="sidenav-item"
+            ><i class="ri-question-line"></i>Help</a
+          >
+          <a href="#" class="sidenav-item"
+            ><i class="ri-feedback-fill"></i>Send feedback</a
+          >
+          <hr />
+
+          <div class="others">
+            <a href="#">About</a>
+            <a href="#">Press</a>
+            <a href="#">Copyright</a>
+            <a href="#">Contact us</a>
+            <a href="#">Creators</a>
+            <a href="#">Advertise</a>
+            <a href="#">Developers</a>
+          </div>
+
+          <div class="others">
+            <a href="#"> Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Policy & Safety</a>
+            <a href="#">How YouTube works</a>
+            <a href="#">Test new Features</a>
+          </div>
+
+          <div class="others">
+           <p> &copy; 2023 Google LLC PEA</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="tag-container">
+          <div class="tag"><p>All</p></div>
+          <div class="tag"><p>Computer Programming</p></div>
+          <div class="tag"><p>Nollywood</p></div>
+          <div class="tag"><p>Hair twists</p></div>
+          <div class="tag"><p>Music</p></div>
+          <div class="tag"><p>Sales</p></div>
+          <div class="tag"><p>TED</p></div>
+          <div class="tag"><p>Live</p></div>
+          <div class="tag"><p>Mixes</p></div>
+          <div class="tag"><p>User interface design</p></div>
+          <div class="tag"><p>AGT</p></div>
+          <div class="tag"><p>Motivation</p></div>
+          <div class="tag"><p>Blessings</p></div>
+          <div class="tag"><p>Gamming</p></div>
+          <div class="tag"><p>Chords</p></div>
+          <div class="tag"><p>Cooking shows</p></div>
+          <div class="tag"><p>Consumer electronics</p></div>
+          <div class="tag"><p>Recently uploaded</p></div>
+          <div class="tag"><p>Watched</p></div>
+          <div class="tag"><p>New to you</p></div>
+        </div>
+        <div class="video-container">
+          <div class="video-content-container">
+            <div class="video-content">
+              <a href="#" class="video-box"
+                ><img src="/images/STD.jpg" alt=""
+              /></a>
+              <span class="time">03:00</span>
+              <div class="video-info">
+                <div class="channel-logo">
+                  <img src="/images/PWM.jpg" alt="" />
+                </div>
+                <div class="channel-info">
+                  <h5 class="title">Math doesn't have to be that hard</h5>
+                  <div class="channel-name"><p>Math made easy</p></div>
+                  <div class="views-upload">
+                    <p>12k views &middot; 6 months ago</p>
+                  </div>
+                </div>
+              </div>
+              <div class="hidden-info">
+                <div class="btn">
+                  <i class="ri-time-line"></i>
+                  <p>Watch later</p>
+                </div>
+                <div class="btn">
+                  <i class="ri-play-list-2-line"></i>
+                  <p>Add to queue</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-content-container">
+            <div class="video-content">
+              <div class="video-thumbnail">
+                <a href="#" class="video-box"
+                  ><img
+                    src="https://i.ytimg.com/an_webp/WXsD0ZgxjRw/mqdefault_6s.webp?du=3000&sqp=CLyylZ8G&rs=AOn4CLBVc2gB4SslKSFfTb583-Ah3w_JrQ"
+                    alt=""
+                /></a>
+                <span class="time">16:00</span>
+              </div>
+
+              <div class="video-info">
+                <div class="channel-logo">
+                  <img src="/images/KP.jpg" alt="" />
+                </div>
+                <div class="channel-info">
+                  <h5>Common CSS mistakes</h5>
+                  <div class="channel-name"><p>Kevin Powell</p></div>
+                  <div class="views-upload">
+                    <p>259k views &middot; 2 years ago</p>
+                  </div>
+                </div>
+              </div>
+              <div class="hidden-info">
+                <div class="btn">
+                  <i class="ri-time-line"></i>
+                  <p>Watch later</p>
+                </div>
+                <div class="btn">
+                  <i class="ri-play-list-2-line"></i>
+                  <p>Add to queue</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-content-container">
+            <div class="video-content">
+              <a href="#" class="video-box"
+                ><img src="/images/cornrow.png" alt=""
+              /></a>
+              <span class="time">25:14</span>
+              <div class="video-info">
+                <div class="channel-logo">
+                  <img src="/images/UI.jpg" alt="" />
+                </div>
+                <div class="channel-info">
+                  <h5>How to cornrow your own hair</h5>
+                  <div class="channel-name"><p>SE guru</p></div>
+                  <div class="views-upload">
+                    <p>259k views &middot; 2 years ago</p>
+                  </div>
+                </div>
+              </div>
+              <div class="hidden-info">
+                <div class="btn">
+                  <i class="ri-time-line"></i>
+                  <p>Watch later</p>
+                </div>
+                <div class="btn">
+                  <i class="ri-play-list-2-line"></i>
+                  <p>Add to queue</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-content-container">
+            <div class="video-content">
+              <a href="#" class="video-box"
+                ><img
+                src=https://i.ytimg.com/an_webp/O79pJ7qXwoE/mqdefault_6s.webp?du=3000&sqp=CMS0lZ8G&rs=AOn4CLBg-jSl8it7LElOgRzoJ86jL2oHgQ
+                alt="" /></a
+              >
+              <span class="time">18:00</span>
+              <div class="video-info">
+                <div class="channel-logo">
+                  <img src="/images/TM.jpg" alt="" />
+                </div>
+                <div class="channel-info">
+                  <h5>Web design tips</h5>
+                  <div class="channel-name"><p>Traversy Media</p></div>
+                  <div class="views-upload">
+                    <p>259k views &middot; 2 years ago</p>
+                  </div>
+                </div>
+              </div>
+              <div class="hidden-info">
+                <div class="btn">
+                  <i class="ri-time-line"></i>
+                  <p>Watch later</p>
+                </div>
+                <div class="btn">
+                  <i class="ri-play-list-2-line"></i>
+                  <p>Add to queue</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-content-container">
+            <div class="video-content">
+              <a href="#" class="video-box"
+                ><img src="/images/Nolly.jpeg" alt=""
+              /></a>
+              <span class="time">1:06:15</span>
+              <div class="video-info">
+                <div class="channel-logo">
+                  <img src="/images/PWM.jpg" alt="" />
+                </div>
+                <div class="channel-info">
+                  <h5>Far from home reactions</h5>
+                  <div class="channel-name"><p>Nolly Reactions</p></div>
+                  <div class="views-upload">
+                    <p>500k views &middot; 2 months ago</p>
+                  </div>
+                </div>
+              </div>
+              <div class="hidden-info">
+                <div class="btn">
+                  <i class="ri-time-line"></i>
+                  <p>Watch later</p>
+                </div>
+                <div class="btn">
+                  <i class="ri-play-list-2-line"></i>
+                  <p>Add to queue</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-content-container">
+            <div class="video-content">
+              <a href="#" class="video-box"
+                ><img src="/images/BS.jpg" alt=""
+              /></a>
+              <span class="time">33:10</span>
+              <div class="video-info">
+                <div class="channel-logo">
+                  <img src="/images/STD.jpg" alt="" />
+                </div>
+                <div class="channel-info">
+                  <h5>How to design a business plan</h5>
+                  <div class="channel-name"><p>Ms Business</p></div>
+                  <div class="views-upload">
+                    <p>25k views &middot; 2 years ago</p>
+                  </div>
+                </div>
+              </div>
+              <div class="hidden-info">
+                <div class="btn">
+                  <i class="ri-time-line"></i>
+                  <p>Watch later</p>
+                </div>
+                <div class="btn">
+                  <i class="ri-play-list-2-line"></i>
+                  <p>Add to queue</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-content-container">
+            <div class="video-content">
+              <a href="#" class="video-box"
+                ><img src="/images/DM.jpg" alt=""
+              /></a>
+              <span class="time">16:50</span>
+              <div class="video-info">
+                <div class="channel-logo">
+                  <img src="/images/UI.jpg" alt="" />
+                </div>
+                <div class="channel-info">
+                  <h5>Slay Right</h5>
+                  <div class="channel-name"><p>Photo Gee</p></div>
+                  <div class="views-upload">
+                    <p>700 views &middot; 2 weeks ago</p>
+                  </div>
+                </div>
+              </div>
+              <div class="hidden-info">
+                <div class="btn">
+                  <i class="ri-time-line"></i>
+                  <p>Watch later</p>
+                </div>
+                <div class="btn">
+                  <i class="ri-play-list-2-line"></i>
+                  <p>Add to queue</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-content-container">
+            <div class="video-content">
+              <a href="#" class="video-box"
+                ><img src="/images/SE.jpg" alt=""
+              /></a>
+              <span class="time">13:41</span>
+              <div class="video-info">
+                <div class="channel-logo">
+                  <img src="/images/PWM.jpg" alt="" />
+                </div>
+                <div class="channel-info">
+                  <h5>How to learn SE the right way</h5>
+                  <div class="channel-name"><p>SE guru</p></div>
+                  <div class="views-upload">
+                    <p>259k views &middot; 2 years ago</p>
+                  </div>
+                </div>
+              </div>
+              <div class="hidden-info">
+                <div class="btn">
+                  <i class="ri-time-line"></i>
+                  <p>Watch later</p>
+                </div>
+                <div class="btn">
+                  <i class="ri-play-list-2-line"></i>
+                  <p>Add to queue</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-content-container">
+            <div class="video-content">
+              <a href="#" class="video-box"
+                ><img src="/images/STD.jpg" alt=""
+              /></a>
+              <span class="time">27:08</span>
+              <div class="video-info">
+                <div class="channel-logo">
+                  <img src="/images/PWM.jpg" alt="" />
+                </div>
+                <div class="channel-info">
+                  <h5>How to learn SE the right way</h5>
+                  <div class="channel-name"><p>SE guru</p></div>
+                  <div class="views-upload">
+                    <p>259k views &middot; 2 years ago</p>
+                  </div>
+                </div>
+              </div>
+              <div class="hidden-info">
+                <div class="btn">
+                  <i class="ri-time-line"></i>
+                  <p>Watch later</p>
+                </div>
+                <div class="btn">
+                  <i class="ri-play-list-2-line"></i>
+                  <p>Add to queue</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-content-container">
+            <div class="video-content">
+              <a href="#" class="video-box"
+                ><img src="/images/software eng..jpg" alt=""
+              /></a>
+              <span class="time">19:00</span>
+              <div class="video-info">
+                <div class="channel-logo">
+                  <img src="/images/KP.jpg" alt="" />
+                </div>
+                <div class="channel-info">
+                  <h5>How to learn SE the right way</h5>
+                  <div class="channel-name"><p>SE guru</p></div>
+                  <div class="views-upload">
+                    <p>259k views &middot; 2 years ago</p>
+                  </div>
+                </div>
+              </div>
+              <div class="hidden-info">
+                <div class="btn">
+                  <i class="ri-time-line"></i>
+                  <p>Watch later</p>
+                </div>
+                <div class="btn">
+                  <i class="ri-play-list-2-line"></i>
+                  <p>Add to queue</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-content-container">
+            <div class="video-content">
+              <a href="#" class="video-box"
+                ><img src="/images/cornrow.png" alt=""
+              /></a>
+              <span class="time">11:19</span>
+              <div class="video-info">
+                <div class="channel-logo">
+                  <img src="/images/PWM.jpg" alt="" />
+                </div>
+                <div class="channel-info">
+                  <h5>How to learn SE the right way</h5>
+                  <div class="channel-name"><p>SE guru</p></div>
+                  <div class="views-upload">
+                    <p>259k views &middot; 2 years ago</p>
+                  </div>
+                </div>
+              </div>
+              <div class="hidden-info">
+                <div class="btn">
+                  <i class="ri-time-line"></i>
+                  <p>Watch later</p>
+                </div>
+                <div class="btn">
+                  <i class="ri-play-list-2-line"></i>
+                  <p>Add to queue</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-content-container">
+            <div class="video-content">
+              <a href="#" class="video-box"
+                ><img src="/images/Web-design-tips.jpg" alt=""
+              /></a>
+              <span class="time">18:50</span>
+              <div class="video-info">
+                <div class="channel-logo">
+                  <img src="/images/PWM.jpg" alt="" />
+                </div>
+                <div class="channel-info">
+                  <h5>How to learn SE the right way</h5>
+                  <div class="channel-name"><p>SE guru</p></div>
+                  <div class="views-upload">
+                    <p>259k views &middot; 2 years ago</p>
+                  </div>
+                </div>
+              </div>
+              <div class="hidden-info">
+                <div class="btn">
+                  <i class="ri-time-line"></i>
+                  <p>Watch later</p>
+                </div>
+                <div class="btn">
+                  <i class="ri-play-list-2-line"></i>
+                  <p>Add to queue</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
